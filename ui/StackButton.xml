@@ -1,0 +1,20 @@
+<GuiXml>
+	<Controls>
+		<TopLevelControl name="QBSStackTLC" clampedToScreen="true" movable="false" mouseEnabled="true" hidden="true">
+			<Dimensions x="50" y="50"/>
+			<Anchor point="TOPRIGHT" relativeTo="ZO_PlayerBankMenuBarLabel" relativePoint="TOPLEFT" offsetX="-10" offsetY="-10" />
+			<Controls>
+				<Button name="QBSStackButton" inherits="ZO_ButtonBehaviorClickSound">
+				<OnClicked>QuickBankStacker:QuickStack(true)</OnClicked>
+				<Dimensions x="50" y="50" />                                
+				<Anchor point="CENTER" relativeTo="$(parent)" relativePoint="CENTER" offsetX="0" offsetY="0"  />
+				<Textures
+					normal		= "esoui/art/help/help_tabicon_feedback_up.dds"
+					pressed		= "esoui/art/help/help_tabicon_feedback_down.dds"
+					mouseOver	= "esoui/art/help/help_tabicon_feedback_over.dds"
+				/>  
+				</Button>
+			</Controls>
+		</TopLevelControl>
+    </Controls>
+</GuiXml>

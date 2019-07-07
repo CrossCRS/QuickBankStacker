@@ -1,0 +1,12 @@
+## Title: Quick Bank Stacker
+## Author: Wintertoad
+## Version: 1.0
+## APIVersion: 100027
+## Description: Quickly move items from your inventory to your bank
+## DependsOn: LibAddonMenu-2.0
+## OptionalDependsOn: LibStub
+## IsLibrary: false
+## SavedVariables: QBSSV
+
+ui/StackButton.xml
+QuickBankStacker.lua
